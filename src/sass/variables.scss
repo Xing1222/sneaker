@@ -1,0 +1,107 @@
+// base color
+$blue: #324157;
+$light-blue: #3a71a8;
+$red: #c03639;
+$pink: #e65d6e;
+$green: #30b08f;
+$tiffany: #4ab7bd;
+$yellow: #fec171;
+$panGreen: #30b08f;
+
+// NavBarTop
+$navBarTopLogo: rgb(121, 121, 121);
+$navBarTopBg: rgb(255, 205, 153);
+$navBarTopText: rgb(121, 121, 121);
+$navBarTopTextActive: rgb(121, 121, 121);
+
+//sidebar
+$menuText: rgb(255, 102, 0);
+// $menuActiveText:#409EFF;
+$menuActiveText: #fff;
+$subMenuActiveText: rgb(255, 102, 0); //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg: rgb(255, 205, 153);
+$menuHover: rgb(255, 102, 0);
+$menuItemActive: rgb(255, 102, 0);
+
+$subMenuBg: rgb(255, 205, 153);
+$subMenuHover: rgb(255, 102, 0);
+
+$sideBarWidth: 180px;
+// $--color-primary: rgb(255, 102, 0);
+// the :export directive is the magic sauce for webpack
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  menuItemActive: $menuItemActive;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  navBarTopLogo: $navBarTopLogo;
+  navBarTopBg: $navBarTopBg;
+  navBarTopText: $navBarTopText;
+  navBarTopTextActive: $navBarTopTextActive;
+}
+.scrollbar-wrapper {
+  .el-menu {
+    .el-menu-item {
+      &:hover {
+        color: #fff !important;
+      }
+    }
+    .nest-menu {
+      .router-link-active {
+        .el-menu-item {
+          color: #fff !important;
+        }
+      }
+      .el-menu-item {
+        color: rgb(51, 51, 51) !important;
+      }
+    }
+    .el-submenu {
+      &.is-active {
+        .el-submenu__title {
+          &:hover {
+            color: #fff !important;
+          }
+        }
+      }
+      .el-submenu__title {
+        &:hover {
+          color: #fff !important;
+        }
+      }
+    }
+  }
+}
+#app .sidebar-container .el-submenu .el-menu-item:hover,
+#app .sidebar-container .nest-menu .el-submenu > .el-submenu__title:hover {
+  color: #fff !important;
+}
+#app .sidebar-container .submenu-title-noDropdown:hover,
+#app .sidebar-container .el-submenu__title:hover {
+  color: #fff !important;
+  i {
+    color: #fff !important;
+  }
+}
+.navbar-top .el-menu--horizontal > .el-menu-item {
+  &:hover {
+    color: #fff !important;
+    background-color: #ff6d00 !important;
+  }
+}
+
+.el-menu--horizontal > .el-menu-item.is-active {
+  color: #fff !important;
+  border-bottom-color: #ff6d00 !important;
+  background-color: #ff6d00 !important;
+}
+.el-menu--vertical .nest-menu .el-submenu > .el-submenu__title:hover,
+.el-menu--vertical .el-menu-item:hover {
+  color: #fff !important;
+}

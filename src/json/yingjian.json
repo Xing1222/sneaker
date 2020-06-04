@@ -1,0 +1,274 @@
+{
+  "jiucan": [
+    {
+      "id": 1,
+      "content": {
+        "title": "标准收银机A"
+      },
+      "src": "shouyina"
+    },
+    {
+      "id": 2,
+      "content": {
+        "title": "标准收银机B"
+      },
+      "src": "shouyinb"
+    },
+    {
+      "id": 3,
+      "content": {
+        "title": "自动结算台"
+      },
+      "src": "jiesuantai"
+    },
+    {
+      "id": 4,
+      "content": {
+        "title": "标准收银闸机"
+      },
+      "src": "zaji"
+    },
+    {
+      "id": 5,
+      "content": {
+        "title": "电子餐牌"
+      },
+      "src": "dianzi"
+    },
+    {
+      "id": 6,
+      "content": {
+        "title": "自动取筷机"
+      },
+      "src": "qukuai"
+    }
+  ],
+  "jinxiaocun": [
+    {
+      "id": 1,
+      "content": {
+        "title": "智能PDA"
+      },
+      "src": "pda"
+    },
+    {
+      "id": 2,
+      "content": {
+        "title": "蓝牙电子秤"
+      },
+      "src": "lanya"
+    },
+    {
+      "id": 3,
+      "content": {
+        "title": "条码打印机"
+      },
+      "src": "dayinji"
+    }
+  ],
+  "jiejue": [
+    {
+      "id": 1,
+      "content": {
+        "title": "工厂",
+        "data": "不同排班、不同工种补贴规则和订餐规则复杂多变，客人就餐需审批，就餐成本管理严格",
+        "color": "1px solid #d16d2a"
+      },
+      "src": "gongchang"
+    },
+    {
+      "id": 2,
+      "content": {
+        "title": "学校",
+        "data": "价格严格管控，营养餐个性化精准搭配、食品安全追根溯源",
+        "color": "1px solid #70ad47"
+      },
+      "src": "school"
+    },
+    {
+      "id": 3,
+      "content": {
+        "title": "医院",
+        "data": "病患餐跟医院HIS系统结合精准推荐、医生的加班留餐、家属餐预订",
+        "color": "1px solid #e0a900"
+      },
+      "src": "yiyuan"
+    },
+    {
+      "id": 4,
+      "content": {
+        "title": "机关",
+        "data": "补贴金额审批复杂，补贴金额管控严格，就餐时间严格限制，家属就餐限制",
+        "color": "1px solid #d16d2a"
+      },
+      "src": "jiguan"
+    },
+    {
+      "id": 5,
+      "content": {
+        "title": "科技企业",
+        "data": "高质量餐食、营养餐个性化精准搭配、加班餐保温和预定",
+        "color": "1px solid #70ad47"
+      },
+      "src": "keji"
+    },
+    {
+      "id": 6,
+      "content": {
+        "title": "养老机构",
+        "data": "不同老年病人的精准备餐，家属对老人餐食信息的无缝对接",
+        "color": "1px solid #e0a900"
+      },
+      "src": "yanglao"
+    }
+  ],
+  "kehu": [
+    {
+      "id": 1,
+      "content": {
+        "title": "龙南龙钇重稀土科技股份有限公司"
+      },
+      "src": "long"
+    },
+    {
+      "id": 2,
+      "content": {
+        "title": "龙南县人民政府机关事务局"
+      },
+      "src": "jiguan"
+    },
+    {
+      "id": 3,
+      "content": {
+        "title": "赣州市芯隆新能源材料有限公司"
+      },
+      "src": "nengyuan"
+    },
+    {
+      "id": 4,
+      "content": {
+        "title": "广州思林杰网络科技有限公司"
+      },
+      "src": "silin"
+    },
+    {
+      "id": 5,
+      "content": {
+        "title": "湖北鄂钢嘉华新型建材有限公司"
+      },
+      "src": "egang"
+    },
+    {
+      "id": 6,
+      "content": {
+        "title": "奇精机械股份有限公司"
+      },
+      "src": "jixie"
+    },
+    {
+      "id": 7,
+      "content": {
+        "title": "河北省正定县子龙小学"
+      },
+      "src": "zilong"
+    },
+    {
+      "id": 8,
+      "content": {
+        "title": "温州市瓯海区人民法院"
+      },
+      "src": "fayuan"
+    },
+    {
+      "id": 9,
+      "content": {
+        "title": "云南金鼎锌业有限公司"
+      },
+      "src": "zn"
+    }
+  ],
+  "shouyi": [
+    {
+      "id": 1,
+      "content": {
+        "title": "丰厚利润",
+        "data": "行业内最高分配机制与奖励政策，确保代理商长期丰厚利润"
+      },
+      "src": "liru"
+    },
+    {
+      "id": 2,
+      "content": {
+        "title": "独特产品轻量部署",
+        "data": "完善独特的团餐信息化解决方案，轻量部署、快速上线，战线短速度快"
+      },
+      "src": "qingliang"
+    },
+    {
+      "id": 3,
+      "content": {
+        "title": "全面服务支持",
+        "data": "专属客服指导、实时跟进维护"
+      },
+      "src": "fuwu"
+    },
+    {
+      "id": 4,
+      "content": {
+        "title": "市场开发支持",
+        "data": "提供培训支持、协销支持、客户保护、客户转介绍裂变、广告支持、展会支持、推广支持等"
+      },
+      "src": "shichang"
+    }
+  ],
+  "xinwen": [
+    {
+      "id": 1,
+      "content": {
+        "title": "丰厚利润",
+        "data": "行业内最高分配机制与奖励政策，确保代理商长期丰厚利润"
+      },
+      "src": "liru"
+    },
+    {
+      "id": 2,
+      "content": {
+        "title": "丰厚利润",
+        "data": "行业内最高分配机制与奖励政策，确保代理商长期丰厚利润"
+      },
+      "src": "liru"
+    },
+    {
+      "id": 3,
+      "content": {
+        "title": "丰厚利润",
+        "data": "行业内最高分配机制与奖励政策，确保代理商长期丰厚利润"
+      },
+      "src": "liru"
+    },
+    {
+      "id": 4,
+      "content": {
+        "title": "丰厚利润",
+        "data": "行业内最高分配机制与奖励政策，确保代理商长期丰厚利润"
+      },
+      "src": "liru"
+    },
+    {
+      "id": 5,
+      "content": {
+        "title": "丰厚利润",
+        "data": "行业内最高分配机制与奖励政策，确保代理商长期丰厚利润"
+      },
+      "src": "liru"
+    },
+    {
+      "id": 6,
+      "content": {
+        "title": "丰厚利润",
+        "data": "行业内最高分配机制与奖励政策，确保代理商长期丰厚利润"
+      },
+      "src": "liru"
+    }
+  ]
+}
